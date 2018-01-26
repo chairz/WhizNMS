@@ -1,0 +1,174 @@
+/* for now just disable menu collapse */
+/* $grid-float-breakpoint: 300px; */
+/* container-fluid already gives us a good padding */
+/* container-fluid already gives us a good padding */
+/* override bootstrap nav-tabs colors */
+/*
+$nav-link-hover-bg:                         $color_opennms_lighter;
+$nav-disabled-link-color:                   $color_opennms;
+$nav-disabled-link-hover-color:             $color_opennms;
+$nav-tabs-border-color:                     $color_opennms_darker;
+$nav-tabs-link-hover-border-color:          $color_opennms_lighter;
+$nav-tabs-active-link-hover-bg:             $body-bg !default;
+$nav-tabs-active-link-hover-border-color:   #ddd !default;
+*/
+/* General Styles */
+.geomap {
+  width: 100px;
+  height: 400px;
+  min-height: 100%;
+  min-width: 100%;
+  display: block;
+}
+
+/* Cluster styles (Plugin leaflet.markercluster) */
+.geomap .marker-cluster-Critical {
+  background-color: #cc0000;
+}
+
+.geomap .marker-cluster-Major {
+  background-color: #ff3300;
+}
+
+.geomap .marker-cluster-Minor {
+  background-color: #ff9900;
+}
+
+.geomap .marker-cluster-Warning {
+  background-color: #ffcc00;
+}
+
+.geomap .marker-cluster-Normal {
+  background-color: #336600;
+}
+
+.geomap .marker-cluster div {
+  position: absolute;
+  top: 0;
+  color: white;
+}
+
+.geomap .svg {
+  stroke-width: 0px;
+}
+
+/* Styles for SVG elements */
+.geomap .svg .Cleared {
+  fill: #999999;
+  stroke: #999999;
+}
+
+.geomap .svg .Normal {
+  fill: #336600;
+  stroke: #336600;
+}
+
+.geomap .svg .Minor {
+  fill: #ff9900;
+  stroke: #ff9900;
+}
+
+.geomap .svg .Major {
+  fill: #ff3300;
+  stroke: #ff3300;
+}
+
+.geomap .svg .Warning {
+  fill: #ffcc00;
+  stroke: #ffcc00;
+}
+
+.geomap .svg .Critical {
+  fill: #cc0000;
+  stroke: #cc0000;
+}
+
+/* General Popup styles */
+.geomap .leaflet-popup-content .node {
+  word-wrap: break-word;
+}
+
+.geomap .leaflet-popup-scrolled {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.geomap .node-marker-popup .leaflet-popup-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.geomap table.node-marker-list {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Styles for severties in popup */
+.geomap .severity {
+  text-align: center;
+  padding: 4px;
+}
+
+.geomap .severity a {
+  text-decoration: none;
+  color: white;
+}
+
+.geomap .severity.Normal {
+  background-color: #336600;
+  opacity: 0.6;
+}
+
+.geomap .severity.Normal:hover {
+  background-color: #336600;
+  opacity: 1.0;
+}
+
+.geomap .severity.Warning {
+  background-color: #ffcc00;
+  opacity: 0.6;
+}
+
+.geomap .severity.Warning:hover {
+  background-color: #ffcc00;
+  opacity: 1.0;
+}
+
+.geomap .severity.Minor {
+  background-color: #ff9900;
+  opacity: 0.6;
+}
+
+.geomap .severity.Minor:hover {
+  background-color: #ff9900;
+  opacity: 1.0;
+}
+
+.geomap .severity.Major {
+  background-color: #ff3300;
+  opacity: 0.6;
+}
+
+.geomap .severity.Major:hover {
+  background-color: #ff3300;
+  opacity: 1.0;
+}
+
+.geomap .severity.Critical {
+  background-color: #cc0000;
+  opacity: 0.6;
+}
+
+.geomap .severity.Critical:hover {
+  background-color: #cc0000;
+  opacity: 1.0;
+}
+
+/* Toolbar Control styles */
+.geomap .leaflet-container .leaflet-control-zoom {
+  margin-top: 20px;
+}
+
+.geomap .leaflet-container .leaflet-control .selected {
+  background-color: lightgray;
+}

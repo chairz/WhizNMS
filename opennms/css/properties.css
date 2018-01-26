@@ -1,0 +1,14 @@
+/* for now just disable menu collapse */
+/* $grid-float-breakpoint: 300px; */
+/* container-fluid already gives us a good padding */
+/* container-fluid already gives us a good padding */
+/* override bootstrap nav-tabs colors */
+/*
+$nav-link-hover-bg:                         $color_opennms_lighter;
+$nav-disabled-link-color:                   $color_opennms;
+$nav-disabled-link-hover-color:             $color_opennms;
+$nav-tabs-border-color:                     $color_opennms_darker;
+$nav-tabs-link-hover-border-color:          $color_opennms_lighter;
+$nav-tabs-active-link-hover-bg:             $body-bg !default;
+$nav-tabs-active-link-hover-border-color:   #ddd !default;
+*/

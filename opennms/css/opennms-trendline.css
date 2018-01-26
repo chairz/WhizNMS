@@ -1,0 +1,74 @@
+/*
+ * Styling properties for Trend Charts
+ */
+/* for now just disable menu collapse */
+/* $grid-float-breakpoint: 300px; */
+/* container-fluid already gives us a good padding */
+/* container-fluid already gives us a good padding */
+/* override bootstrap nav-tabs colors */
+/*
+$nav-link-hover-bg:                         $color_opennms_lighter;
+$nav-disabled-link-color:                   $color_opennms;
+$nav-disabled-link-hover-color:             $color_opennms;
+$nav-tabs-border-color:                     $color_opennms_darker;
+$nav-tabs-link-hover-border-color:          $color_opennms_lighter;
+$nav-tabs-active-link-hover-bg:             $body-bg !default;
+$nav-tabs-active-link-hover-border-color:   #ddd !default;
+*/
+.alert-box .row {
+  margin-left: 5px !important;
+  margin-right: -5px !important;
+}
+
+/* defines the grid layout trend chart page */
+.row.gutter-10 {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.gutter-10 > [class^="col-"], .gutter-10 > [class^=" col-"] {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.alert-box.panel-body {
+  background-color: #dddddd;
+}
+
+/* Background color for trend charts */
+.alert-trend {
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+  height: 90px;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.alert-trend hr {
+  border-top-color: #bbbbbb;
+}
+
+.alert-trend h1 .glyphicon {
+  font-size: 1em;
+  padding-right: 5px;
+}
+
+.alert-trend .alert-link {
+  color: #4c9d29;
+}
+
+.alert-trend a {
+  color: #4c9d29;
+}
+
+.alert {
+  padding: 10px !important;
+}
+
+.jqstooltip {
+  width: auto !important;
+  height: auto !important;
+}

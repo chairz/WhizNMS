@@ -1,0 +1,2 @@
+serviceClass: org.opennms.features.poller.remote.gwt.client.LocationStatusService
+path: 9E13425F59EE61A8EC0D290838450BD0.gwt.rpc
